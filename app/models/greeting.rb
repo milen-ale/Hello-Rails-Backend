@@ -1,3 +1,5 @@
+# rubocop:enable
+
 class Greeting < ApplicationRecord
   def self.random_greeting
     all.sample
